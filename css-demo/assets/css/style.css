@@ -1,0 +1,97 @@
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+body {
+
+    background-color:rgb(218, 253, 255);
+
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+main {
+
+}
+
+
+header.primary{
+background-color:#3b788b;
+color:#ffffff;
+text-align: center;
+/*long form*/
+  padding-top: 40px;
+  padding-right: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+
+  padding: 40px;  
+
+  padding: 20px 40px 20px 40px;  
+
+  padding: 20px 40px; 
+}
+
+header.primary h1{
+  font-size:2.4rem;
+  /* top | left and right | bottom */
+  margin: 20px 0 0;
+  text-shadow: 3px 2px #000;
+}
+
+header.primary h1 a{
+  color:#ffffff;
+  text-decoration:none;
+}
+
+header.primary h2{
+  font-size: 1.3rem;
+  margin: 0;
+  letter-spacing:.2px;
+  text-shadow: 3px 2px #000;
+}
+
+
+nav.primary ul{
+  padding:0;
+}
+nav.primary ul li{
+  list-style-type:none;
+}
+nav.primary ul li a{
+  color:rgb(235, 251, 252);
+}
+
+#content h2 {
+  color: rgb(100, 3, 100);
+  font-style: italic;
+}
+
+#content h3 {
+  color: rgb(100, 3, 100);
+  font-style: italic;
+}
+
+.post h2 a {
+  color: rgb(100, 3, 100);
+  font-style: italic;
+
+}
+
+#blog h2 {
+  color: rgb(100, 3, 100);
+  font-style: italic;
+}
+
+.widget h2 {
+  color: rgb(100, 3, 100);
+  font-style: italic;
+}
