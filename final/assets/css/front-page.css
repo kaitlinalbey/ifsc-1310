@@ -1,7 +1,12 @@
+#content img {
+  border: 1px solid rgb(61, 0, 95);
+}
+
+
+
 .container {
     padding-top: 40px;
 }
-
 
 
 .info-content{
@@ -31,7 +36,7 @@
 
 
 
-/*Product Page*/
+/*Product Pages*/
 
 #product-pages {
     display: flex;
